@@ -1,0 +1,74 @@
+@import "global.scss";
+
+.jumbotron {
+    background-image: -webkit-linear-gradient(left, rgba(112,24,19,0.7) 15%, rgba(58,12,10,0.7) 27%, rgba(0,0,0,0.9) 40%, rgba(78,17,13,0.7) 72%, rgba(112,24,19,0.7) 86%), url(../../images/bannerPointeShoes.png);
+    background-image: linear-gradient(left, rgba(112,24,19,0.7) 15%, rgba(58,12,10,0.7) 27%, rgba(0,0,0,0.9) 40%, rgba(78,17,13,0.7) 72%, rgba(112,24,19,0.7) 86%), url(../../images/bannerPointeShoes.png);
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    
+    .container {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 476px;
+        h1, h2{
+            color: #FFF !important;
+        }
+    }
+}
+.features {
+    padding: 60px 0;
+    
+    div.col-md-4 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+.feature {
+    background-color: transparent;
+    padding: 5%;
+    text-align: center;
+    
+    i {
+        background-color: $primaryColor;
+        border-radius: 50%;
+        color: #FFF;
+        display: block;
+        font-size: 350%;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 12px;
+        text-align: center;
+        width: 100px;
+    }
+    
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    p {
+        font-size: 84%;
+        line-height: 170%;
+        
+        a:link,
+        a:visited {
+            color: $primaryColor;
+            text-decoration: underline !important;
+        }
+
+        a:hover,
+        a:active{
+            background-color: transparent;
+            text-decoration: none !important;
+        }
+    }
+}
