@@ -42,14 +42,14 @@
                     <div class="feature">
                         <i class="ion-help icon-big"></i>
                         <h3>Why Fuzion</h3>
-                        <p>Learn what sets us apart from other area dance studios.</p>
+                        <p>Fuzion offers classes for all ages from the beginner to the more advanced. These classes will focus on excellent technique while fostering an appreciation for the arts. Learn what sets us apart from other area dance studios.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature">
                         <i class="ion-ios-download icon-big"></i>
                         <h3>Download Student Info Pack</h3>
-                        <p>Find out all that you need to know about joining Fuzion Studio.</p>
+                        <p>Have questions about joining Fuzion? Is your child moving into the next age divizion and you need to know dress code? Find out all that you need to know about Fuzion Studio by downloading our student info pack.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
